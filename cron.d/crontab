@@ -1,0 +1,2 @@
+* * * * * echo "Cron is Running in cron" >> /tmp/cron.log
+* * * * * php /var/www/html/artisan schedule:run >> /dev/null 2>&1
